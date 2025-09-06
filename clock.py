@@ -52,8 +52,8 @@ class Clock(tk.Canvas):
 
 def main():
     root = tk.Tk()
-    root.title("Analog Clock")
-    root.attributes('-topmost', True)
+    root.title("Analog Clock") 
+    root.attributes('-topmost', True) 
     Clock(root)
     root.mainloop()
 

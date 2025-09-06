@@ -16,11 +16,20 @@ If you want to run the clock without invoking Python directly, you can bundle it
 3. Double-click `AnalogClock.exe` to launch the clock.
 
 ## Development from Source (optional)
-To run the script directly during development:
+To run the script directly during development: 
+This repository contains a simple Python desktop application that displays an analog clock using Tkinter.
+
+## Requirements
+- Python 3
+- Tkinter (usually bundled with standard Python distribution)
+
+## Usage
+Run the application with: 
 
 ```
 python clock.py
 ```
-
+ 
 This opens a window with a circular clock showing the current time.
-The clock window is configured to stay on top of other windows so it remains visible.
+The clock window is configured to stay on top of other windows so it remains visible. 
+This will open a window with a circular clock showing the current time. 
