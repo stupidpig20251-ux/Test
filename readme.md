@@ -1,16 +1,16 @@
 # Analog Clock App
+ 
+This repository contains a simple desktop application that displays an analog clock using Tkinter.
 
-This repository contains a simple Python desktop application that displays an analog clock using Tkinter.
+## Build a Windows Executable
+If you want to run the clock without invoking Python directly, you can bundle it into an `.exe` with [PyInstaller](https://pyinstaller.org/):
 
-## Requirements
-- Python 3
-- Tkinter (usually bundled with standard Python distribution)
+1. Install PyInstaller: `pip install pyinstaller`
+2. Run the provided batch script:
 
-## Usage
-Run the application with:
+   ```
+   build_exe.bat
+   ```
 
-```
-python clock.py
-```
-
-This will open a window with a circular clock showing the current time.
+   This creates `dist/AnalogClock.exe`, a standalone executable.
+3. Double-click `AnalogClock.exe` to launch the clock. 
